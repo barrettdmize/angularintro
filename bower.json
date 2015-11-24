@@ -1,0 +1,16 @@
+{
+  "name": "angularintro",
+  "authors": [
+    "Barrett Mize <barrettmize@Barrett-mize.local>"
+  ],
+  "description": "intro to angular",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8",
+    "underscore": "~1.8.3"
+  }
+}
