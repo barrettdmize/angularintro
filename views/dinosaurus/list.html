@@ -1,0 +1,33 @@
+<h1>List Page</h1>
+
+<div ng-repeat="dinosaur in reviewDinosaurs">
+  <h3>{{dinosaur.title}}</h3>
+  <img ng-src="{{dinosaur.image}}" alt="" />
+  <p>
+    {{dinosaur.description}}
+  </p>
+  <p>
+    {{dinosaur.review}}
+  </p>
+  <p>
+    {{dinosaur.rating}}
+  </p>
+  <p>
+    {{dinosaur.price}}
+  </p>
+</div>
+<article ng-repeat="dinosaur in likedDinosaurs" class="dinosaur" data-id="{{dinosaur.id}}">
+  <header >
+    <img src="http://www.fillmurray.com/50/50" alt="" />
+
+    <div class="">
+      <a href="#/likes/{{dinosaur._id}}">{{dinosaur.title}}</a>
+    </div>
+    <a href="#">{{dinosaur.dt}}</a>
+  </header>
+  <div class="pContain">
+      <img ng-src="{{dinosaur.image}}" alt="" />
+
+  </div>
+
+</article>

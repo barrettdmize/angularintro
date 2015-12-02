@@ -1,9 +1,9 @@
 {
-  "name": "angularintro",
+  "name": "angularshopapp",
   "authors": [
     "Barrett Mize <barrettmize@Barrett-mize.local>"
   ],
-  "description": "intro to angular",
+  "description": "using angular to make a online shop",
   "main": "",
   "moduleType": [],
   "license": "MIT",
